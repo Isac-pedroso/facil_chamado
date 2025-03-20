@@ -252,7 +252,7 @@ $(document).ready(function () {
       } else {
         limpaMsgErro("senhaError");
         addMsgError(
-          "<p class='msgSenhaAtivo'>Deve conter 1 simbolo, 1 numero e 5 caracteres.</p",
+          "<p class='msgSenhaAtivo'>Deve conter 1 letra maiscula, 1 simbolo, 1 numero e 5 caracteres.</p",
           "senhaError"
         );
         addIsInValid(inputsId[5]);
