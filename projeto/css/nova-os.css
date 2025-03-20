@@ -1,0 +1,349 @@
+.tela-carregamento-envio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 250px;
+}
+.principal{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.prefeitura-nome{
+    width: 100%;
+    padding: 0;
+    border-bottom: 0.5px solid rgba(121, 121, 121, 0.344)
+}
+.prefeitura-nome p{
+    font-size: 1em;
+    margin-bottom: 0;    
+    margin-left: 15px;
+}
+
+.conteudo-nova-os{
+    margin-bottom: 50px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 10px;
+    width: 95%;
+    background-color: white;
+}
+.cabecalho-os{
+    width: 100%;
+}
+.cabecalho-os-topo{
+    display: flex;
+    width: 100%;
+}
+.salvar-os{
+    padding-bottom: 15px;
+    display: flex;
+    width: 100%;
+}
+.codigo-os{
+    display: flex;
+    width: 15%;
+}
+.codigo-os input{
+    font-size: 1em;
+    width: 70px;
+    padding: 0px 0px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0.5px solid rgb(129, 127, 127);
+}
+.titulo-os{
+    cursor: pointer;
+    font-size: 1em;
+    font-family: arial;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    background-color: #237bff;
+    color: white;
+}
+.nome-prefeitura{
+    text-align: right;
+    width: 85%;
+}
+.nome-prefeitura h1{
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    font-size: 1.2em;
+}
+.cabecalho-os-meio{
+    flex-wrap: wrap;
+    display: flex;
+}
+.tipo-incidente{
+    padding: 10px 10px 10px 0px;
+    text-align: left;
+    width: 300px;
+}
+#tp_incidente{
+    font-size: 1.2em;
+}
+.tipo-incidente label{
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 1.2em;
+}
+.status-os{
+    padding: 10px 10px 10px 0px;
+    text-align: left;
+    width: 300px;
+}
+#stt_os{
+    font-size: 1.2em;
+}
+.status-os label{
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 1.2em;
+}
+.descricao-problema{
+    width: 100%;
+}
+.descricao-problema label{
+    font-family: arial;
+    font-size: 1.2em;
+}
+.descricao-problema textarea{
+    width: 100%;
+    
+}
+.observacao{
+    width: 100%;
+}
+.observacao label{
+    font-family: arial;
+    font-size: 1.2em;
+}
+.observacao textarea{
+    height: 200px;
+}
+.contatos{
+    width: 100%;
+}
+
+.opcoes-contatos{
+    border-bottom: 0.5px solid rgb(185, 185, 185);
+    text-align: center;
+    padding-bottom: 5px;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+}
+.opcoes-contatos p{
+    margin: 6px 0px 10px 10px;
+    font-family: arial;
+    font-size: 1em;
+    padding: 0;
+}
+.todos-contatos{
+    width: 100%;
+}
+.contato{
+    margin-bottom: 10px;
+    display: flex;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 22%;
+}
+.contato-dados{
+    width: 90%;
+}
+.contato-dados input{
+    margin-top: 5px;
+    width: 100%;
+}
+.contato-config{
+    width: 10%;
+}
+.contato-config button{
+    background-color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.btn-contato{
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+}
+.contato-config img{
+    width: 100%;
+    height: 100%;
+}
+.cad-contato{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.b-b{
+    border-bottom: 1px solid black;
+}
+.campos-cad-contato{
+    margin-right: 10px;
+    width: 40%;
+}
+.campos-cad-contato input{
+    width: 100%;
+}
+.salvar-cad{
+    padding: 20px 0px 10px 0px;
+}
+.voltar-cad{
+    padding: 20px 0px 10px 0px;
+}
+.btns-cad-contato{
+    display: flex;
+}
+.input-ativado{
+    border: 0px;
+    background-color: white;
+}
+.footer-nova-os{
+    width: 100%;
+    height: 50px;
+}
+.msgError p {
+    color: red;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.quantidade-contatos{
+    height: 100%;
+    width: 20px;
+}
+.qtd-contatos{
+    padding-left: 5px;
+    background-color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
+    margin-left: 0;
+}
+.anexos{
+    width: 100%;
+    font-family: arial;
+    margin-bottom: 20px;
+}
+.anexos label{
+    margin-bottom: 5px;
+}
+.cad-anexos{
+    width: 50%;
+}
+.todos-anexos{
+    padding-top: 10px;
+    width: 100%;
+}
+.anexo{
+    margin-bottom: 10px;
+    display: flex;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 35%;
+}
+#deleteAnexo{
+    font-size: 1.1em;
+    font-family: arial;
+    cursor: pointer;
+    margin-right: 15px;
+    color: red;
+}
+#deleteAnexo:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+.timeline{
+    border-top: 1px solid rgb(185, 185, 185);
+    width: 100%;
+    padding-top: 20px;
+}
+.titulo-timeline{
+    width: 100%;
+    margin-bottom: 10px; 
+}
+.titulo-timeline h1{
+    font-family: arial;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+}
+.timeline-conteudo{
+    width: 30%;
+    background-color: rgb(245, 245, 245);
+    padding: 15px;
+    font-family: arial;
+    font-size: 1em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.timeline-conteudo p{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) and (max-height: 944px){
+    .cabecalho-os-topo{
+        flex-flow: column;
+    }
+    .nome-prefeitura{
+        text-align: left;
+        margin: 10px 0px 10px 0px;
+    }
+}
+@media screen and (max-width: 1230px) and (max-height: 944px){
+    .contato{
+        width: 35%;
+    }
+    .cad-contato{
+        flex-flow: column;
+    }
+    .campos-cad-contato{
+        width: 100%;
+    }
+    .timeline-conteudo{
+        width: 65%;
+    }
+    .anexo{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 800px) and (max-height: 944px){
+    .contato{
+        width: 50%;
+    }
+    .cad-contato{
+        width: 100%;
+    }
+    .timeline-conteudo{
+        width: 80%;
+    }
+    .anexo{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 944px){
+    .contato{
+        width: 100%;
+    }
+    .timeline-conteudo{
+        width: 100%;
+    }
+}

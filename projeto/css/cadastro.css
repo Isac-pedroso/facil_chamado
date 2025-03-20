@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo-principal {
+    box-shadow: 0px 0px 50px #999797;
+    min-width: 500px;
+    min-height: 650px;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 60%;
+    margin-top: 70px;
+    display: flex;
+}
+
+.info-sistema {
+    background-image: url("../img/plano-de-fundo.jpeg");
+    background-repeat: no-repeat, no-repeat;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: 100% 100%;
+    border-radius: 20px 0px 0px 20px;
+    background-blend-mode: lighten;
+    padding: 260px 130px 100px 130px;
+    float: left;
+    width: 60%;
+    text-align: center;
+    border-right: 1px solid black;
+    font-family: arial;
+}
+
+.info-sistema h1 {
+    color: black;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+
+.info-conteudo {
+    padding: 20px 0px 3px 0px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.conteudo-cadastro {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    float: left;
+    width: 40%;
+    padding: 30px 50px 50px 50px;
+}
+
+.conteudo-cadastro p,
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: arial;
+    margin-top: 10px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.btn-logar {
+    padding-top: 15px;
+    width: 100%;
+    height: 60px;
+}
+
+.msgError p {
+    color: red;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.viewCarregamento{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.spinner-border{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}

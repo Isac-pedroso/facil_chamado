@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tela-carregamento-envio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 300px;
+}
+body{
+    width: 100%;
+    background-color: rgb(227, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 360px;
+}
+.principal{
+    display: flex;
+    width: 100%;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.relacao-os{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.filtros{
+    padding: 20px 10% 20px 10%;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(121, 121, 121, 0.344);
+}
+.conteudo-filtros{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+.titulo-filtros{
+    width: 100%;
+    height: 20px;
+
+}
+.titulo-filtros h1{
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+.pesquisar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;        
+    width: 160PX;
+}
+.codigo-os{
+    display: flex;
+    width: 15%;
+}
+.codigo-os input{
+    font-size: 1em;
+    width: 80px;
+    padding: 0px 0px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0.5px solid rgb(129, 127, 127);
+}
+.campo-os{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulo-os{
+    cursor: pointer;
+    font-size: 1em;
+    font-family: arial;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    background-color: #237bff;
+    color: white;
+}
+/*.campo-os input{
+    width: 75%;
+}*/
+.inputs-select{
+    display: flex;
+    width: 72%;
+}
+.campo-tipo-incidente{
+    padding: 20px 20px 20px 20px;
+    width: 50%;
+}
+.campo-status{
+    padding: 20px;
+    width: 50%;
+}
+.btn-pesquisar-filtros{
+    display: flex;
+    width: 7%;
+    padding: 45px 0px 20px 0px;
+    
+}
+.ordem-servicos-relacao{
+    padding: 20px 10% 20px 10%;
+    width: 100%;
+}
+.stt_aberta{
+    border: 0.8px solid rgb(0, 240, 0);
+}
+.stt_fechada{
+    border: 0.8px solid red;
+}
+.ordem-servico{
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+.cabecalho-os{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.numero-da-os{
+    cursor: pointer;
+    padding-top: 10px;
+    width: 100px;
+}
+.w-100{
+    width: 100%;
+}
+.codigo-ordem-servico{
+    display: flex;
+    width: 100%;
+}
+.codigo-ordem-servico input{
+    font-size: 1em;
+    width: 50px;
+    padding: 0px 0px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0.5px solid rgb(129, 127, 127);
+}
+.titulo-ordem-servico{
+    cursor: pointer;
+    font-size: 1em;
+    font-family: arial;
+    border-radius: 5px 0px 0px 5px;
+    padding: 5px;
+    background-color: #237bff;
+    color: white;
+}
+.status-os{
+    width: 150px
+}
+.teste{
+    width: 100%;
+}
+.status-os input{
+    width: 60px;
+}
+.dados-os-configs{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.dados-os-configs input{
+    font-size: 1em;
+    text-align: left;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+.tp-incidente-os{
+    width: 60%;
+    padding-left: 0;
+}
+.descricao-problema{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* CONFIGURAÇÕES DO SUMMERNOTE */
+.note-editor{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.panel-heading{
+    display: none;
+}
+.note-statusbar{
+    display: none;
+}
+.titulo-descricao{
+    width: 100%;
+}
+.titulo-descricao label{
+    margin: 10px 10px 10px 0px;
+    padding: 0;
+    font-family: arial;
+    font-size: 1em;
+}
+.descricao-problema textarea{
+    height: 100px;
+}
+.input-w10px{
+    width: 10px;
+}
+@media screen and (max-width: 1200px){
+    .filtros{
+        padding: 20px 5% 20px 5%;
+    }
+    .btn-pesquisar-filtros{
+        width: 5%;
+    }
+    .inputs-select{
+        width: 66%;
+    }
+    .ordem-servicos-relacao{
+        padding: 20px 5% 20px 5%;
+    }
+    .tp-incidente-os{
+        width: 50%;
+    }
+    .status-os{
+        width: 115px
+    }
+}
+@media screen and (max-width: 990px){
+    .tp-incidente-os{
+        width: 40%;
+    } 
+}
+@media screen and (max-width: 960px){
+    .tp-incidente-os{
+        width: 35%;
+    } 
+}
+
+@media screen and (max-width: 800px){
+    .filtros{
+        padding: 0;
+    }
+    .inputs-select{
+        width: 60%;
+    }
+    .campo-tipo-incidente{
+        padding: 20px 5px 20px 5px;
+        width: 50%;
+    }
+    .campo-status{
+        padding: 20px 5px 20px 5px;
+        width: 50%;
+    }
+    .btn-pesquisar-filtros{
+        width: 8%;    
+    } 
+    .ordem-servicos-relacao{
+        padding: 20px 0% 20px 0%;
+    }
+    .tp-incidente-os{
+        width: 30%;
+    } 
+}
+@media screen and (max-width: 600px){
+    .inputs-select{
+        width: 100%;
+        flex-direction: column;
+    }
+    .campo-tipo-incidente{
+        padding: 20px 5px 20px 5px;
+        width: 100%;
+    }
+    .campo-status{
+        padding: 20px 5px 20px 5px;
+        width: 100%;
+    }
+    .tp-incidente-os{
+        width: 30%;
+    } 
+    .btn-pesquisar-filtros{
+        width: 100%;
+        padding-left: 40%;
+        padding-right: 40%;    
+    }  
+    #buscar_os{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 570px) and (min-height:600px){
+    .descricao-problema{
+        display: none;
+    }
+    .principal{
+        width: 100vw;
+        padding-bottom: 100px;
+    }
+    .titulo-filtros{
+        padding: 20px;
+    
+    }
+    .pesquisar{
+        padding: 20px;      
+        width: 100%;
+    }
+    .inputs-select{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .campo-tipo-incidente{
+        padding: 10px 20px 10px 20px;
+        width: 100%;
+    }
+    .campo-status{
+        padding: 10px 20px 10px 20px;
+        width: 100%;
+    }
+    .btn-pesquisar-filtros{
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .btn-pesquisar-filtros a{
+        width: 20%;
+    }
+}

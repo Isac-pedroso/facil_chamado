@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(227, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+}
+.tela-inicial{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.plano-fundo{
+    background-image: url("../img/plano-de-fundo.jpeg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#btn_continuar:hover{
+    cursor: pointer;
+}
+.info-tela-inicial{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    display: flex;
+    padding-top: 250px;
+}
+.principal{
+    width: 100%;
+}
+/* Conteudo principal */
+.conteudo-principal{
+    padding: 50px 10% 50px 10%;
+    float: left;
+    min-width: 500px;
+    width: 100%;
+    height: 500px;
+    background-color: #f3f3f3;
+}
+/* Titulo conteudo principal*/
+.titulo-conteudo{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content:left;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(204, 199, 199);
+}
+.titulo-conteudo h1{
+    text-align: center;
+    font-family: arial;
+    font-size: 2em;
+    margin: 0;
+    height: 0;
+    margin-top: 20px;
+}
+.conteudo{
+    align-items:end;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 78%;
+}
+.conteudo-interno{
+    width: 36%;
+    height: 100%;
+}
+.conteudo-interno a{
+    text-decoration: none;
+
+}
+.conteudo-interno h1{
+    margin-top: 10px;
+    text-align: left;
+    font-family: arial;
+    font-size: 2em;
+}
+.espaco-entre-conteudo{
+    background-color: white;
+    min-width: 500px;
+    width: 100%;
+    height: 3rem;
+    box-shadow: inset 0 .5em 5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);;
+}
+.marcador-vermelho ul{
+    font-family: arial;
+    list-style: none;
+    font-size: 1.2em;
+}
+.marcador-vermelho ul li:before {
+    content: '\2022';
+    margin: 0 3px;
+    color: #fa1900;
+}
+
+.login{
+    width: 33%;
+    box-shadow: 0px 0px 15px #000;
+    background-color: #237bff;
+    padding: 20px 60px 20px 60px;
+}
+.login h1{
+    color: white;
+}
+.login input{
+    margin-top: 20px;
+}
+#conteudo-funcionalidades{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#dl-funcionalidades{
+    float: left;
+    width: 60%;
+}
+.ilustracao{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding-top: 50px;
+}
+.ilustracao img{
+    border-radius: 10px;
+    max-width: 100%;
+}
